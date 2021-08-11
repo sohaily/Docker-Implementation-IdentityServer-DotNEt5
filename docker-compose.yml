@@ -1,0 +1,20 @@
+version: '3.7'
+
+services:
+  reverseproxy:
+    build:
+      context: .
+      dockerfile: nginx/nginx.Dockerfile
+    depends_on:
+      - testapp
+    ports:
+      - "5200:5100"
+  testapp:
+    image: ${DOCKER_REGISTRY-}testapp
+    build:
+      context: .
+      dockerfile: TestApp/Dockerfile
+    environment:
+      - ASPNETCORE_URLS=http://*:5000
+    ports:
+      - "5000:5000" 

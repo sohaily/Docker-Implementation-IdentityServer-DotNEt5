@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestApp", "TestApp\TestApp.csproj", "{6BD9F04C-D517-4388-A8D3-7FA2BDC35213}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api1", "Api1\Api1.csproj", "{0C1EC7F6-D7BC-4714-BEA8-04554F8F0FD4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Client", "Client\Client.csproj", "{E93C989E-4FF8-46A9-99C3-D1C31EFDFFEE}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{C3962A16-74B6-42E8-AF89-E6A244DA42A8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "nginx", "nginx", "{46E803A8-6DCE-4474-9CDE-5365DC599DDC}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Downloads\docker-fundamentals-netcore_nginx file\docker-fundamentals-netcore31\nginx\id-local.crt = ..\..\..\Downloads\docker-fundamentals-netcore_nginx file\docker-fundamentals-netcore31\nginx\id-local.crt
+		..\..\..\Downloads\docker-fundamentals-netcore_nginx file\docker-fundamentals-netcore31\nginx\id-local.key = ..\..\..\Downloads\docker-fundamentals-netcore_nginx file\docker-fundamentals-netcore31\nginx\id-local.key
+		..\..\..\Downloads\docker-fundamentals-netcore_nginx file\docker-fundamentals-netcore31\nginx\id-local.pfx = ..\..\..\Downloads\docker-fundamentals-netcore_nginx file\docker-fundamentals-netcore31\nginx\id-local.pfx
+		..\..\..\Downloads\docker-fundamentals-netcore_nginx file\docker-fundamentals-netcore31\nginx\nginx.Dockerfile = ..\..\..\Downloads\docker-fundamentals-netcore_nginx file\docker-fundamentals-netcore31\nginx\nginx.Dockerfile
+		..\..\..\Downloads\docker-fundamentals-netcore_nginx file\docker-fundamentals-netcore31\nginx\nginx.local.conf = ..\..\..\Downloads\docker-fundamentals-netcore_nginx file\docker-fundamentals-netcore31\nginx\nginx.local.conf
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6BD9F04C-D517-4388-A8D3-7FA2BDC35213}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BD9F04C-D517-4388-A8D3-7FA2BDC35213}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BD9F04C-D517-4388-A8D3-7FA2BDC35213}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BD9F04C-D517-4388-A8D3-7FA2BDC35213}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C1EC7F6-D7BC-4714-BEA8-04554F8F0FD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C1EC7F6-D7BC-4714-BEA8-04554F8F0FD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C1EC7F6-D7BC-4714-BEA8-04554F8F0FD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C1EC7F6-D7BC-4714-BEA8-04554F8F0FD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E93C989E-4FF8-46A9-99C3-D1C31EFDFFEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E93C989E-4FF8-46A9-99C3-D1C31EFDFFEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E93C989E-4FF8-46A9-99C3-D1C31EFDFFEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E93C989E-4FF8-46A9-99C3-D1C31EFDFFEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3962A16-74B6-42E8-AF89-E6A244DA42A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3962A16-74B6-42E8-AF89-E6A244DA42A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3962A16-74B6-42E8-AF89-E6A244DA42A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3962A16-74B6-42E8-AF89-E6A244DA42A8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {56887F24-E732-4F0E-8D78-9F6344718601}
+	EndGlobalSection
+EndGlobal

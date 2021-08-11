@@ -1,0 +1,22 @@
+services:
+  reverseproxy:
+    build:
+      context: C:\Users\HP\source\repos\IdentityServer
+      dockerfile: nginx/nginx.Dockerfile
+    depends_on:
+      testapp:
+        condition: service_started
+    ports:
+    - published: 5200
+      target: 5100
+  testapp:
+    build:
+      context: C:\Users\HP\source\repos\IdentityServer
+      dockerfile: TestApp/Dockerfile
+    environment:
+      ASPNETCORE_URLS: http://*:5000
+    image: testapp
+    ports:
+    - published: 5000
+      target: 5000
+version: '3.7'
