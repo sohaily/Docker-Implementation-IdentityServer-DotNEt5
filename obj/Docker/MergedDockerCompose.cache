@@ -1,7 +1,7 @@
 services:
   reverseproxy:
     build:
-      context: C:\Users\HP\source\repos\IdentityServer
+      context: D:\Github\Docker-Implementation-IdentityServer-DotNEt5
       dockerfile: nginx/nginx.Dockerfile
     depends_on:
       testapp:
@@ -11,7 +11,7 @@ services:
       target: 5100
   testapp:
     build:
-      context: C:\Users\HP\source\repos\IdentityServer
+      context: D:\Github\Docker-Implementation-IdentityServer-DotNEt5
       dockerfile: TestApp/Dockerfile
     environment:
       ASPNETCORE_URLS: http://*:5000
